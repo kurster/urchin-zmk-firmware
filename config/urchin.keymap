@@ -187,10 +187,10 @@
         sym_layer {
             label = "Sym.";
             bindings = <
-&kp N1        &kp N2       &kp N3       &kp N4       &kp N5       &kp N6      &kp N7       &kp N8        &kp N9        &kp N0
-&kp IT_LESS   &kp IT_USD   &kp IT_LPAR  &kp IT_LBRC  &kp IT_LBKT  &kp IT_EQL  &kp IT_QUES  &kp IT_SQUOT  &kp IT_MINUS  &kp IT_AST
-&kp IT_GREAT  &kp IT_PERC  &kp IT_RPAR  &kp IT_RBRC  &kp IT_RBKT  &kp IT_AT   &kp IT_EXCL  &kp IT_DQUOT  &kp IT_PLUS   &kp IT_FSLH
-                                        &mo FNC      &mo SYM2     &trans      &trans
+&kp N1        &kp N2            &kp N3          &kp N4                &kp N5            &kp N6             &kp N7                 &kp N8           &kp N9             &kp N0
+&kp IT_LESS   &kp TILDE         &kp MINUS       &kp UNDER             &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PLUS               &kp EQUAL        &kp IT_MINUS       &kp GRAVE
+&kp IT_GREAT  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp BACKSLASH     &kp PIPE           &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp TILDE
+                                                &mo FNC               &mo SYM2          &trans             &trans
             >;
         };
 
@@ -223,10 +223,10 @@
         numbers {
             label = "numbers";
             bindings = <
-&kp IT_CARET  &kp IT_UNDER  &kp IT_PND   &kp IT_EUR   &kp IT_HASH  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none
-&kp IT_BKTK   &kp IT_TILDE  &kp IT_BSLH  &kp IT_PIPE  &kp IT_AND   &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none
-&none         &none         &kp IT_SECT  &kp IT_CCED  &kp IT_DEG   &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
-                                         &none        &none        &none  &kp NUMBER_0
+&kp F9  &kp F10  &kp F11  &kp F12  &kp IT_HASH  &kp PLUS        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_ASTERISK
+&kp F5  &kp F6   &kp F7   &kp F8   &kp IT_AND   &kp MINUS       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE
+&kp F1  &kp F2   &kp F3   &kp F4   &kp IT_DEG   &kp KP_NUMLOCK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_EQUAL
+                          &none    &none        &none           &kp NUMBER_0
             >;
         };
 
